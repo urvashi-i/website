@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: url("bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  display: inline-block;
+}
+
+.upper-area {
+  background-color: rgb(13 24 42);
+  height: 25px;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 40px;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+  margin-top: 7px;
+  margin-left: 30px;
+}
+
+.logo {
+  color: #fcfbfb;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 20px;
+  
+}
+
+ul li a {
+  text-decoration: none;
+  color: #04213d;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #154f86;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.overlay {
+  width: 50%; 
+}
+
+.overlay-text {
+  color: #f4e9d2; 
+  margin-left: 65px; 
+  margin-top: 100px; 
+  font-size: 50px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.button{
+  color: #f4e9d2; 
+  margin-top: 65px;
+  margin-left: 220px;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button a {
+  text-decoration: none;
+  color: #0d182a;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #f4e9d2;
+  box-sizing: border-box;
+  padding: 8px 20px;
+}
+
+.button:hover {
+  background-color: #f4e9d2; /* Change background color on hover */
+}
+
+.overlay-img img {
+  width: 100%; 
+  height: 500px; 
+  width: 500px;
+  margin-left: 850px;
+  margin-top: -500px;
+}
+
+.semimai {
+  background: url("bgtwo.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  display: inline-block;
+}
+
+.tagline{
+  width: 50%;
+}
+
+.taglines-overlay {
+  color: #192c4d; 
+  margin-left: 470px;
+  margin-top: -2020px; 
+  font-size: 50px;
+  text-align: left;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.productsone img{
+  margin-top: 65px;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.productsone{
+  width: 70%;
+}
+#descone{
+  text-align: center;
+  width: 70%;
+  margin-top: -500px;
+  margin-left: 650px;
+  font-size:35px;
+  color: #1e3861;
+}
+
+.purchone{
+  color: #f4e9d2; 
+  margin-top: 95px;
+  margin-left: 950px;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(4, 2, 2, 0.5);
+}
+
+.purchone a {
+  text-decoration: none;
+  color: #eddbbc;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #12233e;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  border-radius: 500px;
+}
+
+.purchone a:hover {
+  background-color: #010713; /* Change background color on hover */
+}
+
+.producttwo img{
+
+  width: 500px;
+  margin-top: 130px;
+  margin-left: 900px;
+}
+
+.producttwo{
+  width: 70%;
+}
+#desctwo{
+  text-align: center;
+  width: 70%;
+  margin-top: -500px;
+  margin-left: 50px;
+  font-size:35px;
+  color: #193054;
+}
+
+.purchtwo{
+  color: #f4e9d2; 
+  margin-top: 80px;
+  margin-left: 330px;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(4, 2, 2, 0.5);
+}
+
+.purchtwo a {
+  text-decoration: none;
+  color: #eddbbc;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #12233e;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  border-radius: 500px;
+}
+
+.purchtwo a:hover {
+  background-color: #010713; /* Change background color on hover */
+}
+
+.productthree img{
+  width: 200px;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+.descthree{
+  margin-top: 30px;
+}
